@@ -1,57 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Project: Event invite</title>
-        <style>
-           .twenty-one {
-               font-weight: bold;
-           }  
-           h1 {
-               background-color: rgb(230, 179, 39);
-           }
-           .Details-1 {background-color: rgb(230, 179, 39);}
-           h1{ font-family: cursive, fantasy, simple;}
-           .Details-1 {font-size: 1.4em;}
-           h1{text-align: center;}
-           h2{text-align: center;}
-           .Details-1 {text-decoration: underline;}
-           .Details-1 {text-align:center;}
-           h2{font-family: fantasy;}
-           .Details-1{font-family: fantasy;}
-          .special-word {color: orange;}
-          .photo {
-               margin-left: 30px;
-                margin-bottom: 20px;
-                margin-right:10px;
-                
-          }
-          .photo-gallery {
-                border: 3px groove orange;}
-        .photo-gallery {text-align: right;}
-        </style>
-        
-    </head>
-    <body>
-        
-        <h1>You're Invited!</h1>
-        <h2>To My <span class="special-word">Special</span>Birthday!</h2>
-        <div class="photo-gallery">
-        <img class="photo" src="https://www.kasandbox.org/programming-images/seasonal/hopper-partying.png" alt="person celebrating parties with a party hat" width="130">
-        <img class="photo" src="https://www.kasandbox.org/programming-images/food/fish_grilled-snapper.png" alt="Mexican food of a whole fried fish, its one of the options to have at the party"width="220">
-        <img class="photo" src="https://www.kasandbox.org/programming-images/food/cake.png" alt="Pretty and shiny cake on a plate to show food" width="220">
-        </div>
-        <p class="Details-1">The Details:</p>
-        <ul>
-    <div class="List-1"><li>Starts at 5pm</li>
-            <li>Delicous Mexican Food (Comida)
-            </li>
-            <li>Cakes/Pies (Dulces)</li>
-            <li>Pinata</li>
-            <li> Lots of fun activities for everyone</li>
-            <li> Drinks for everyone <span class="twenty-one">21 years or older</span></li></div> 
-        
-        </ul>
-        
-    </body>
+<head>
+<meta charset="UTF-8">
+<title>Jessicas Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="slicknav.css">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Serif+TC:200|Old+Standard+TT" rel="stylesheet">
+</head>
+
+<body>
+<header> <img src="Images/Screen Shot 2018-12-12 at 11.29.10 PM.png" alt="JMG Photography Logo">
+  <ul id="menu">
+    <li><a href="#">About Me</a></li>
+    <li><a href="#">My Portfolio</a></li>
+    <li><a href="contact-me.html">Contact Me</a></li>
+  </ul>
+</header>
+<main>
+  <div class="row">
+    <div class="col"></div>
+    <div class="hero">
+      <p class="subheading">I'M A</p>
+      <h1>Photographer</h1>
+      <p class="heading-body-copy">Des Moines has brought something wonderful in my life and that is photography. I look around the beautiful city and appreciate the images I show for you.</p>
+      <a href="#" class="lets-talk">Let's Talk</a> </div>
+  </div>
+  <div class="row">
+    <div class="col col-lg col-md col-sm"><img src="Images/RedLeavesFINALBETTER.png" alt="Red Leaves during the fall"></div>
+    <div class="col col-lg col-md col-sm"><img src="Images/Big GunFINALBETTER.png" alt="Big military tank"></div>
+    <div class="col col-lg col-md col-sm"><img src="Images/BellaFINALBETTER.png" alt="A white and yellow lab laying down"></div>
+    <div class="col col-lg col-md col-sm"><img src="Images/FallLeavesFINALBETTER.png" alt="small leaves hanging during the fall"></div>
+    <div class="col col-lg col-md col-sm"><img src="Images/Papi Walgreens CarFINALBETTER.png" alt="Red old school car"></div>
+    <div class="col col-lg col-md col-sm"><img src="Images/MeFINALBETTER.png" alt="The Photographer of the Website: Jessica Gomez"></div>
+  </div>
+</main>
+<script src="jquery-1.11.3.min.js"></script> 
+<script src="jquery.slicknav.js"></script> 
+<script>
+		$(function(){
+		$('#menu').slicknav();
+	});
+	</script>
+</body>
 </html>
